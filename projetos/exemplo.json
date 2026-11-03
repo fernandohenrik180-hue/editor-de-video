@@ -1,0 +1,20 @@
+{
+  "saida": "saida/exemplo_reels.mp4",
+  "formato": "9:16",
+  "fps": 30,
+  "enquadramento": "crop",
+  "clipes": [
+    {"arquivo": "entrada/gravacao.mp4", "inicio": 14.2, "fim": 16.8},
+    {"arquivo": "entrada/gravacao.mp4", "inicio": 2.1, "fim": 6.4, "zoom": 1.15},
+    {"arquivo": "entrada/gravacao.mp4", "inicio": 7.0, "fim": 13.5},
+    {"arquivo": "entrada/gravacao.mp4", "inicio": 18.0, "fim": 22.0, "zoom": 1.12}
+  ],
+  "textos": [
+    {"texto": "3 ERROS QUE\nMATAM SEU REELS", "inicio": 0, "fim": 2.5, "posicao": "topo", "estilo": "forte"},
+    {"texto": "Chama no direct", "inicio": 14.5, "fim": 17.4, "posicao": "centro", "cor_caixa": "0xE11D48@0.9"}
+  ],
+  "legenda": "trabalho/montagem.srt",
+  "musica": {"arquivo": "musicas/trilha.mp3", "volume": 0.15, "ducking": true},
+  "fade": {"entrada": 0, "saida": 0.4},
+  "normalizar_audio": true
+}
